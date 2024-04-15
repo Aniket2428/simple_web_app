@@ -1,10 +1,14 @@
-from flask import Flask
+import os
+
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def hello_world():
-    return 'Hello, World! This is Flask backend.'
+    return render_template('index.html')
+
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(host='0.0.0.0', port=os.environ.get("FLASK_SERVER_PORT"), debug=True)
