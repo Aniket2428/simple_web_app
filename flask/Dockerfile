@@ -7,7 +7,9 @@ RUN pip install --upgrade pip
 RUN apk add curl
 
 #To define backend server port
-ENV FLASK_SERVER_PORT=8080
+#ENV FLASK_SERVER_PORT=8080
+
+ENV FLASK_SERVER_ADDR=my-flask-service.default.svc.cluster.local
 
 # permissions and nonroot user for tightened security
 RUN adduser -D nonroot
