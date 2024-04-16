@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec2dd8e5-b57b-49d9-8e06-cf07eb09f844" name="Changes" comment="new Commit">
-      <change afterPath="$PROJECT_DIR$/flask/flask-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask/flask-app-deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/flask/flask-app-deployment.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nginx/nginx-deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx-deployment.yml" afterDir="false" />
     </list>
@@ -160,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713209671829</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new Commit">
+      <option name="closed" value="true" />
+      <created>1713231220025</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713231220025</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
