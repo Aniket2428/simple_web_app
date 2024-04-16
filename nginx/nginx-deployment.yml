@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:latest
+          image: simple_web_app-nginx-proxy
           ports:
             - containerPort: 80
           volumeMounts:
